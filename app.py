@@ -2,7 +2,7 @@ from flask import Flask, request, render_template_string, send_from_directory
 import os
 
 app = Flask(__name__)
-PDF_FOLDER = 'Certificate renamed 80' # Aapke folder ka naam
+PDF_FOLDER = 'ALL Certificate and marksheet' # Aapke folder ka naam
 
 HTML_PAGE = '''
 <!DOCTYPE html>
